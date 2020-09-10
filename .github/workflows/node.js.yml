@@ -31,7 +31,7 @@ jobs:
         os: [ubuntu-latest, windows-2016]
         node-version: [12.x, 14.x]
     steps:
-      - uses: actions/download-artifact@2
+      - uses: actions/download-artifact@v2
         with: 
           name: webpack artifacts
           path: public
